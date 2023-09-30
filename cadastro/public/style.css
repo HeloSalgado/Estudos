@@ -1,0 +1,111 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: aliceblue;
+}
+
+.header {
+    margin: 0;
+    background-color: blueviolet;
+    border-bottom: 3px solid #55bac3 ;
+    animation-name: mudarCor;
+    animation-duration: 3s;
+}
+
+.header .container {
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    color: rgb(141, 244, 244);
+    font-size: 17px;
+}
+
+
+/*---------------FORMULÁRIO---------------*/
+.formulario {
+    margin: 50px auto;
+    background-color: #acd6da;
+    width: 30%;
+    display: flex;
+    border: transparent;
+    border-radius: 17px;
+    opacity: 0;
+    animation-name: slide;
+    animation-duration: 2s;
+    transform: translateX(-100px);
+    animation-fill-mode: forwards;
+}
+
+.formulario .container {
+    width: 80%;
+    height: 60vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.campo {
+    margin: 0 auto;
+    width: 80%;
+    color: rgb(5, 53, 62);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.campo input {
+    border: transparent;
+    border-radius: 10px;
+    font-size: 17px;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+.campo button{
+    width: 80px;
+    margin-top: 20px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    background-color: rgb(101, 142, 183);
+    color: rgb(255, 255, 255);
+    align-self: center;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+@keyframes slide{
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes mudarCor {
+    0%{
+        background-color: rgb(192, 148, 233);
+    }
+    50%{
+        background-color: rgb(158, 93, 218);
+    }
+    100%{
+        background-color: blueviolet; 
+    }
+}
