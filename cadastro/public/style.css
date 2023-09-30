@@ -35,7 +35,7 @@ ul {
 
 /*---------------FORMULÁRIO---------------*/
 .formulario {
-    margin: 50px auto;
+    margin:60px auto;
     background-color: #acd6da;
     width: 30%;
     display: flex;
@@ -50,7 +50,7 @@ ul {
 
 .formulario .container {
     width: 80%;
-    height: 60vh;
+    height: 55vh;
     align-items: center;
     flex-direction: column;
 }
@@ -71,6 +71,7 @@ ul {
     text-align: center;
     margin: auto;
     width: 80%;
+    height: 25px;
 }
 
 .campo button{
