@@ -38,7 +38,7 @@
     animation: clouds-animation 20s infinite linear;
 }
 
-.score{
+#game_over{
     border: 1px solid #416722;
     border-radius: 10px;
     width: 100px;
@@ -46,6 +46,7 @@
     background-color: #e0f6ff;
     padding: 5px;
     text-align: center;
+    position: absolute;
 }
 
 @keyframes pipe-animation {

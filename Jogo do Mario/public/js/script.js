@@ -1,7 +1,7 @@
 const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
 const clouds = document.querySelector('.clouds');
-const score = document.querySelector('.score');
+const game_over = document.querySelector('#game_over');
 
 
 const jump = () => {
@@ -35,6 +35,8 @@ const loop = setInterval(() => {
         
         clouds.style.animation = 'none';
         clouds.style.right = `${cloudsPosition}px`;
+
+        game_over.innerHTML = `Game over`
         
         clearInterval(loop);
     }
