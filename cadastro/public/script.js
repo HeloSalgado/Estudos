@@ -1,4 +1,3 @@
-
 function entrar() {
     var nome = nome_usuario.value;
     var email = email_usuario.value;
@@ -29,9 +28,4 @@ function entrar() {
     } else {
         alert(`Não tem @`)
     }
-
-
-
-
-
 }
