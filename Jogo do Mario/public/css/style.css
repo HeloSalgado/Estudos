@@ -6,8 +6,8 @@
 
 .game-board {
     width: 100%;
-    height: 600px;
-    border-bottom: 15px solid #416722;
+    height: 700px;
+    border-bottom: 70px solid #416722;
     margin: 0 auto;
     position: relative;
     overflow: hidden; /* tudo oq estiver fora do elemento não aparece*/ 
@@ -34,9 +34,18 @@
 .clouds{
     position: absolute;
     width: 400px;
-    margin-top: 20px;
+    margin-top: 100px;
+    animation: clouds-animation 20s infinite linear;
+    margin-right: 1000px;
+}
+
+.clouds2{
+    position: absolute;
+    width: 400px;
+    margin-top: 100px;
     animation: clouds-animation 20s infinite linear;
 }
+
 
 #game_over{
     border: 1px solid #416722;
