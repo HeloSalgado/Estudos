@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class exercicio7 {
     public static void main(String[] args){
         Scanner kb = new Scanner(System.in);
+        float salario = 555.88f;
 
         System.out.println("======================");
         System.out.println("    Múltilplos de 7   ");
