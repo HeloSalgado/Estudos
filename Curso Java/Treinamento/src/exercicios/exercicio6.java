@@ -1,3 +1,5 @@
+package exercicios;
+
 import java.util.Scanner;
 
 public class exercicio6 {
@@ -12,5 +14,7 @@ public class exercicio6 {
                 System.out.println(repeticao);
             }
         }
+
+        kb.close();
     }
 }

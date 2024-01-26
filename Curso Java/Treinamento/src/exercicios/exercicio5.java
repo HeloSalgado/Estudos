@@ -1,3 +1,5 @@
+package exercicios;
+
 import java.util.Scanner;
 
 public class exercicio5 {
@@ -13,5 +15,7 @@ public class exercicio5 {
         for (int repetirAmor = 1; repetirAmor <= quantAmor; repetirAmor++){
             System.out.println(repetirAmor + " - " + pessoaAmada + ", eu te amo! Sempre lembre disso! ");
         }
+
+        kb.close();
     }
 }

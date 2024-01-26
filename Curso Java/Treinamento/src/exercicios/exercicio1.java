@@ -1,3 +1,5 @@
+package exercicios;
+
 import java.util.Scanner;
 
 public class exercicio1 {
@@ -10,5 +12,7 @@ public class exercicio1 {
         for (int repeticao = 0; repeticao < 8; repeticao++){
             System.out.println(frase);
         }
+
+        kb.close();
     }
 }
