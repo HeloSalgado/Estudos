@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<VBox alignment="CENTER" prefHeight="586.0" prefWidth="566.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="com.example.filmesfavoritos.HelloController">
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+   <children>
+      <Label text="Digite seus filmes favoritos">
+         <font>
+            <Font name="Trebuchet MS" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="filmesUsuario" style="-fx-max-width: 300; -fx-border-color: gray; -fx-border-radius: 10;">
+         <font>
+            <Font name="Trebuchet MS" size="15.0" />
+         </font>
+      </TextField>
+     <Button onAction="#cadastrarFilme" style="-fx-background-color: pink;" text="Cadastrar Filme">
+         <font>
+            <Font name="Trebuchet MS Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Button onAction="#verFavoritos" style="-fx-background-color: Orange; -fx-text-fill: white;" text="Ver Favoritos">
+         <font>
+            <Font name="Trebuchet MS Bold" size="15.0" />
+         </font>
+      </Button>
+      <Line endX="100.0" startX="-500.0" stroke="#d39a9a" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="5.0" VBox.vgrow="ALWAYS" />
+   
+     <Label fx:id="totalFilmes" alignment="CENTER" contentDisplay="CENTER" prefHeight="21.0" prefWidth="125.0" style="-fx-background-color: GhostWhite; -fx-border-radius: 50;">
+         <font>
+            <Font name="Trebuchet MS Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="filmesFav" alignment="CENTER" contentDisplay="CENTER" textAlignment="CENTER">
+         <font>
+            <Font name="Trebuchet MS" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</VBox>
