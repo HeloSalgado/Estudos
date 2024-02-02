@@ -37,7 +37,7 @@ public class HelloController {
     @FXML
     public void verFavoritos(ActionEvent event) {
         totalFilmes.setText("Total: " + String.valueOf(filmes.size()));
-
+        filmesFav.applyCss();
         filmesFav.setText("O filme que mais gosta é " + filmes.get(0) +  "\n" +
                 "E desses, o que menos gosta é " + filmes.get(filmes.size() - 1));
     }
