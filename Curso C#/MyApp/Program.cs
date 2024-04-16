@@ -1,41 +1,56 @@
 ﻿
-namespace MeuApp
+namespace MyApp
 {
     internal class Program
     {
         static void Main(string[] args)
-        {          
-            Console.WriteLine("Qual seu nome?");
-            var nome = Console.ReadLine();
-            Console.WriteLine("Qual sua idade?");
-            var idade = Convert.ToInt16(Console.ReadLine());
+        {
+            // Cria uma estrutura
+            var product = new Product(1, "Mouse gamer", 197.23, EProductType.Product);
+            var manutencaoEletrica = new Product(2, "Manutenção elétrica residencial", 500.0, EProductType.Service);
 
-            var isMaiorDeIdade = idade >= 18;
-
-            if(isMaiorDeIdade){
-                Console.WriteLine(nome + ", pode ir pra festa!");
-            } else {
-                Console.WriteLine(nome + ", vai ficar em casa");
-            }
-
+            Console.WriteLine(product.Id);
+            Console.WriteLine(product.Title);
+            Console.WriteLine(product.Price);
+            Console.WriteLine(product.PriceInDolar(4.5));
+            Console.WriteLine(product.Type);
+            Console.WriteLine("-------------------------");
+            Console.WriteLine(manutencaoEletrica.Id);
+            Console.WriteLine(manutencaoEletrica.Title);
+            Console.WriteLine(manutencaoEletrica.Price);
+            Console.WriteLine(manutencaoEletrica.PriceInDolar(4.5));
+            Console.WriteLine(manutencaoEletrica.Type);
         }
 
-        public static void teste(){
-            // Conversão implicita
-            int inteiro = 100;
-            float real = 25.5f;
 
-            //real = inteiro; // 100.0f
+    }
+    struct Product
+    {
+        // Propriedades
+        public int Id;
+        public double Price;
+        public string Title;
+        public EProductType Type;
 
-            //// Conversao explicita
-            //inteiro = (int)real;
 
-            // Parse + Convert
-            //inteiro = int.Parse(real.ToString());
-            inteiro = Convert.ToInt32(real);
-
-            Console.WriteLine(inteiro);
-            Console.WriteLine(Convert.ToBoolean("true"));
+        public Product(int id, string title, double price, EProductType type)
+        {
+            Id = id;
+            Title = title;
+            Price = price;
+            Type = type;
         }
+
+        // Métodos
+        public double PriceInDolar(double dolar)
+        {
+            return Price * dolar;
+        }
+    }
+
+    enum EProductType
+    {
+        Product = 1,
+        Service = 2
     }
 }
