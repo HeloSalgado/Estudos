@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\helos\\OneDrive - SPTech School\\Estudos\\Datas\\Datas.csproj": {}
+    "C:\\Users\\helos\\OneDrive - SPTech School\\Estudos\\Curso C#\\Datas\\Datas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\helos\\OneDrive - SPTech School\\Estudos\\Datas\\Datas.csproj": {
+    "C:\\Users\\helos\\OneDrive - SPTech School\\Estudos\\Curso C#\\Datas\\Datas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\helos\\OneDrive - SPTech School\\Estudos\\Datas\\Datas.csproj",
+        "projectUniqueName": "C:\\Users\\helos\\OneDrive - SPTech School\\Estudos\\Curso C#\\Datas\\Datas.csproj",
         "projectName": "Datas",
-        "projectPath": "C:\\Users\\helos\\OneDrive - SPTech School\\Estudos\\Datas\\Datas.csproj",
+        "projectPath": "C:\\Users\\helos\\OneDrive - SPTech School\\Estudos\\Curso C#\\Datas\\Datas.csproj",
         "packagesPath": "C:\\Users\\helos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\helos\\OneDrive - SPTech School\\Estudos\\Datas\\obj\\",
+        "outputPath": "C:\\Users\\helos\\OneDrive - SPTech School\\Estudos\\Curso C#\\Datas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\helos\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\helos\\OneDrive - SPTech School\\Estudos\\Curso C#\\TextEditor\\TextEditor.csproj": {}
+    "C:\\Users\\helos\\OneDrive - SPTech School\\Estudos\\Curso C#\\TextEditor\\TextEditor.csproj": {}
   },
   "projects": {
-    "c:\\Users\\helos\\OneDrive - SPTech School\\Estudos\\Curso C#\\TextEditor\\TextEditor.csproj": {
+    "C:\\Users\\helos\\OneDrive - SPTech School\\Estudos\\Curso C#\\TextEditor\\TextEditor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\helos\\OneDrive - SPTech School\\Estudos\\Curso C#\\TextEditor\\TextEditor.csproj",
+        "projectUniqueName": "C:\\Users\\helos\\OneDrive - SPTech School\\Estudos\\Curso C#\\TextEditor\\TextEditor.csproj",
         "projectName": "TextEditor",
-        "projectPath": "c:\\Users\\helos\\OneDrive - SPTech School\\Estudos\\Curso C#\\TextEditor\\TextEditor.csproj",
+        "projectPath": "C:\\Users\\helos\\OneDrive - SPTech School\\Estudos\\Curso C#\\TextEditor\\TextEditor.csproj",
         "packagesPath": "C:\\Users\\helos\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\helos\\OneDrive - SPTech School\\Estudos\\Curso C#\\TextEditor\\obj\\",
+        "outputPath": "C:\\Users\\helos\\OneDrive - SPTech School\\Estudos\\Curso C#\\TextEditor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\helos\\AppData\\Roaming\\NuGet\\NuGet.Config"
