@@ -1,19 +1,8 @@
 import React from 'react';
 import {createRoot} from 'react-dom/client';
-import Formulario from './formulario';
-import Tabela from './tabela';
-import './style.css';
+import Principal from './Principal';
 
-class Principal extends React.Component{
-    render(){
-        return(
-            <div>
-                <Formulario/>
-                <Tabela />
-            </div>
-        );
-    }
-}
+import './style.css';
 
 let container = document.getElementById('root');
 let root = createRoot(container);
